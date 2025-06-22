@@ -1,0 +1,4 @@
+Logger object created
+LOG: First message
+LOG: Second message
+Same logger instance used.
