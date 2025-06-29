@@ -1,0 +1,37 @@
+Discount Loan Interest Rates for Customers Above 60
+
+Before:
+CustomerID	Age	LoanID	InterestRate
+101	65	201	8.5%
+102	45	202	7.5%
+103	70	203	9.0%
+
+After Running the Code:
+CustomerID	Age	LoanID	InterestRate
+101	65	201	7.5%
+102	45	202	7.5%
+103	70	203	8.0%
+
+
+Promote Customer to VIP if Balance > $10,000
+Before:
+CustomerID	Balance	IsVIP
+101	12000	N
+102	5000	N
+103	15000	N
+
+After Running the Code:
+CustomerID	Balance	IsVIP
+101	12000	Y
+102	5000	N
+103	15000	Y
+
+Reminder for Loans Due in Next 30 Days
+Assuming today is June 28, 2025
+LoanID	CustomerID	DueDate
+201	101	July 10, 2025
+202	102	August 20, 2025
+203	103	July 25, 2025
+
+Reminder: Loan for John is due on 10-JUL-2025
+Reminder: Loan for Alice is due on 25-JUL-2025

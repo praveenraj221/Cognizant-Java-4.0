@@ -1,0 +1,46 @@
+Sample Data in SavingsAccounts before:
+
+| AccountID | CustomerID | Balance |
+| --------- | ---------- | ------- |
+| 1001      | 501        | 10,000  |
+| 1002      | 502        | 15,000  |
+| 1003      | 503        | 20,000  |
+
+After Running:
+
+Updated SavingsAccounts:
+
+| AccountID | Balance (after 1% interest) |
+| --------- | --------------------------- |
+| 1001      | 10,100                      |
+| 1002      | 15,150                      |
+| 1003      | 20,200                      |
+
+
+UpdateEmployeeBonus
+
+
+Sample Data in Employees before:
+EmpID	Name	Department	Salary
+201	Alice	Sales	50,000
+202	Bob	Sales	55,000
+203	Charlie	HR	48,000
+
+
+Updated Employees:
+EmpID	Salary After 10% Bonus
+201	55,000
+202	60,500
+203	48,000 (No change)
+
+TransferFunds
+
+Sample Data in BankAccounts before:
+AccountID	Balance
+301	5,000
+302	2,000
+
+Updated BankAccounts:
+AccountID	Balance
+301	4,000
+302	3,000
