@@ -1,0 +1,4 @@
+curl -s -u user:pwd http://localhost:8090/authenticate
+
+Expected Output:
+{"token":"<jwt-token>"}

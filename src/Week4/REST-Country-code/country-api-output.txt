@@ -1,0 +1,35 @@
+Spring Boot REST Service: Get Country by Code
+---------------------------------------------------
+
+✅ Endpoint:
+GET http://localhost:8083/countries/{code}
+
+Example:
+GET http://localhost:8083/countries/in
+
+📥 Input:
+Path Variable: code = "in" (case-insensitive)
+
+📤 Output (Response):
+{
+  "code": "IN",
+  "name": "India"
+}
+
+Other Example:
+GET http://localhost:8083/countries/US
+
+Response:
+{
+  "code": "US",
+  "name": "United States"
+}
+
+If the country code is not found (e.g., /countries/uk):
+Response:
+null
+
+Note:
+• The country list is loaded from country.xml.
+• The matching is done using case-insensitive comparison.
+• You can extend this to return 404 Not Found instead of null by adding exception handling.
