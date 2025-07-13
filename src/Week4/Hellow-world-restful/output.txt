@@ -1,0 +1,8 @@
+Request URL: http://localhost:8083/hello
+Request Method: GET
+Response Code: 200 OK
+Response Body: Hello World!!
+
+--- Console Logs ---
+INFO  [main] com.cognizant.springlearn.controller.HelloController : START: sayHello()
+INFO  [main] com.cognizant.springlearn.controller.HelloController : END: sayHello()

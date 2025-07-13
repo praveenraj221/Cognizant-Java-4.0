@@ -1,0 +1,11 @@
+Request URL: http://localhost:8083/country
+Request Method: GET
+Response Code: 200 OK
+Response Body:
+{
+  "code": "IN",
+  "name": "India"
+}
+
+--- Console Logs ---
+INFO - Successfully loaded bean 'in' from country.xml
