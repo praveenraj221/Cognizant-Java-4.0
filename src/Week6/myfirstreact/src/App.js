@@ -1,10 +1,9 @@
-import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to the first session of React</h1>
-    </div>
+    <h1>Welcome the first session of React</h1>
   );
 }
 
