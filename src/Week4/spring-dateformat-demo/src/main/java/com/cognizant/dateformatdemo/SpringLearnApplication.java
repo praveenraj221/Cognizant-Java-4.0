@@ -1,4 +1,4 @@
-package com.cognizant.dateformatdemo;
+githubpackage com.cognizant.dateformatdemo;
 
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
