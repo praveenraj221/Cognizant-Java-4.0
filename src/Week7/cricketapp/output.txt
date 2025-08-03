@@ -1,0 +1,53 @@
+
+All Players:
+Virat - 95
+Rohit - 88
+Rahul - 65
+Dhoni - 40
+Jadeja - 78
+Bumrah - 59
+Ashwin - 71
+Gill - 32
+Pant - 85
+Shami - 69
+Surya - 100
+
+Players with Score Below 70:
+Rahul - 65
+Dhoni - 40
+Bumrah - 59
+Gill - 32
+Shami - 69
+
+
+When the user Clicked Toggle Button
+
+Cricket App
+
+Odd Team Players:
+Virat
+Rahul
+Jadeja
+
+Even Team Players:
+Rohit
+Dhoni
+Bumrah
+
+Merged T20 & Ranji Trophy Players:
+Surya
+Gill
+Pant
+Pujara
+Saha
+Iyer
+
+
+Overview:
+This will be the output when we run the cricketapp.
+In this exercise, I created a ReactJS application called cricketapp to explore modern JavaScript (ES6) features and React components.
+I built two components: ListofPlayers and IndianPlayers. 
+The ListofPlayers component displays a list of cricket players along with their scores using the map() function, and filters out those who scored below 70 using ES6 arrow functions. 
+The IndianPlayers component demonstrates array destructuring by separating odd and even players, and uses the spread operator to merge T20 and Ranji Trophy player arrays. 
+I used conditional rendering to switch between the two components based on a flag variable, and later added a toggle button to switch views interactively.
+The project helped me understand practical usage of ES6 features like destructuring, spread, and arrow functions in the context of a React application.
