@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# ignore all .log files
+*.log
+
+# ignore any folder named log
+log/
